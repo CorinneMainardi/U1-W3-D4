@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #726695;
+}
+.container {
+  margin-inline: auto;
+}
+
+#tabellone {
+  background-color: #05686b;
+  color: #ebebeb;
+  border-radius: 8px;
+  border: 1px solid #05686b;
+  padding: 5px;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  margin-left: 5%;
+}
+
+.cellNumber {
+  display: inline-block;
+  width: 10%;
+  height: 70px;
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: #069696; /* Aggiunto colore di sfondo per visibilità */
+  color: #fff;
+  text-align: center;
+  line-height: 30px; /* Centra il numero verticalmente */
+  font-size: 1.5rem;
+  margin-bottom: 5px; /* Spazio tra le righe del tabellone */
+}
+
+#randomTable {
+  margin-top: 20px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin-left: 5%;
+}
+
+.divRandom {
+  padding: 20px;
+  border: 1px solid #05686b;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #05686b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+#cartelle {
+  background-color: #726695;
+  color: #ebebeb;
+  border-radius: 5px;
+  border: 1px solid #726695;
+  padding: 5px;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin-left: 5%;
+}
+.cartella {
+  display: inline-block;
+  width: 5%;
+  height: 20px;
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #8f849f; /* Aggiunto colore di sfondo per visibilità */
+  color: #fff;
+  text-align: center;
+  line-height: 30px; /* Centra il numero verticalmente */
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
